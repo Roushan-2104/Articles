@@ -1,0 +1,38 @@
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  margin: 0 auto 60px;
+  gap: 10px;
+  align-items: center;
+}
+nav h1 {
+  margin-right: auto;
+  font-size: 25px;
+}
+nav a {
+  color: #333;
+  padding: 4px 10px;
+}
+.navbar ul{
+  list-style-type: none;
+  display: flex;
+}
+.navbar ul a{
+  text-decoration: none;
+  padding: 4px 10px;
+  color: #333;
+
+}
+.navbar a.active{
+  background: #333;
+  color: white;
+  border-radius: 4px;
+}
+.navbar ul li{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 18px;
+}
